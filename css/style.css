@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+/*--
+    start the nav
+--*/
+
+#nav{
+    background-color: black;
+}
+#nav a{
+    display: inline-block;
+    padding: 0px 15px;
+   
+}
+#nav a i{
+    padding: 10px 10px;
+    color: white;
+    font-size: 20px;
+}
+#nav .search{
+  float: right;
+}
+#nav a i:hover{
+    background-color: silver;
+    color: rgb(22, 22, 22);
+}
+/*--end the nav--*/
+
+
+/*--
+    start the header
+--*/
+.head{
+    text-align: center;
+    margin:80px auto;
+}
+.head h1{
+    font-size: 45px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+.head p{
+    font-size: 17px;
+}
+.head p span{
+    background-color: black;
+    padding: 2px 5px;
+    color: silver;
+}
+header{
+    position: relative;
+}
+header div{
+    position: absolute;
+    top: 300px;
+    left: 30px;
+    color: white;
+}
+header div h3{
+    margin-bottom: 20px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+header div h1{
+    font-size: 55px;
+    font-weight: bolder;
+    word-spacing: 3px;
+    margin-bottom: 30px;
+}
+header div button{
+    padding: 20px 30px;
+    font-size: 20px;
+    background-color: rgba(192, 192, 192, 0.788);
+    color:rgba(0, 0, 0, 0.555);
+    cursor: pointer;
+    border: none;
+}
+header div button:hover{
+    background-color: rgb(209, 200, 200);
+}
+
+
+/*--end the header--*/
+
+/*--
+    start the main
+--*/
+.main .asideleft{
+    float: left;
+    width: 60%;
+    padding:0 30px 30px 30px;
+}
+.main .asideright{
+    float: right;
+    width: 40%;
+    height: 200px;
+}
+.main{
+    margin-top: -10px;
+    padding-top: 100px;
+    padding:100px  30px 30px 30px;
+    background-color: rgb(238, 232, 232);
+    height: 3300px;
+}
+
+
+/*--start asideleft--*/
+.main .asideleft  article{
+    padding: 30px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+.main .asideleft article div h1{
+    text-align: center;
+    font-size: 27px;
+    font-weight: bolder;
+}
+.main .asideleft article div p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+    padding-top: 10px;
+    word-spacing: 5px;
+    padding-bottom: 25px;
+}
+.main .asideleft article div p span{
+    color: rgb(138, 132, 132);
+}
+.main .asideleft article div img{
+    display: block;
+    margin: auto;
+}
+.main .asideleft article .prag{
+    width: 98%;
+    margin:30px auto;
+    font-weight: bolder;
+    text-align: justify;
+}
+.main .asideleft article .btn .btn1{
+    padding:12px 30px;
+    background-color: rgb(240, 229, 210);
+    border: 1px solid silver;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.main .asideleft article .btn .btn1:hover{
+    background-color: antiquewhite;
+}
+.main .asideleft article .btn .btn2{
+    padding:12px 30px;
+    background-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+    font-weight: bolder;
+    color: white;
+    cursor: pointer;
+    float: right;
+}
+.main .asideleft article .btn .btn2 span{
+    background-color: rgb(219, 212, 212);
+    padding:6px 12px;
+    margin-left: 10px;
+    color: black;
+}
+.main .asideleft article .btn .btn2:hover{ 
+    background-color: rgb(194, 192, 189);
+    border: 1px solid silver;
+    color: black;
+}
+.main .asideleft article .btn{
+    margin-bottom: 30px;
+}
+.main .asideleft article .reply img{
+    float: left;
+    margin-right: 15px;
+}
+.main .asideleft article .reply nav{
+    float: left;
+    padding-top: 30px;
+}
+.main .asideleft article .reply nav h3{
+    float: left;
+    padding-bottom: 30px;
+    font-weight: bolder;
+}
+.main .asideleft article .reply nav h3 span{
+    color: rgb(127, 130, 133);
+}
+.main .asideleft article hr{
+    margin-bottom: 20px;
+}
+.main .asideleft article .reply nav p{
+    color: rgb(165, 162, 162);
+}
+
+/*--end the asideleft--*/
+
+/*--start the asideright--*/
+.main .asideright .nav1 img{
+    display: block;
+    margin: auto;
+   opacity: .8;
+}
+.main .asideright .nav1 nav{
+    display: block;
+    width: 96%;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.884);
+    color: white;
+    padding: 30px 20px;
+}
+.main .asideright .nav1 nav h1{
+    padding-bottom: 10px;
+}
+.main .asideright .nav1 nav p{
+    text-align: justify;
+}
+
+.main .asideright .right{
+    width: 96%;
+    display: block;
+    margin: 50px auto;
+    background-color: white;
+}
+.main .asideright .right h1,.right2 h1,.right3 h1,.right6 h1,.right4 h1,.right5 h1{
+    background-color: black;
+    padding: 30px 20px;
+    color: white;
+}
+.main .asideright .right div{
+    padding: 20px;
+}
+.main .asideright .right div img{
+    float: left;
+}
+.main .asideright .right div nav{
+    float: left;
+    padding: 10px 20px;
+}
+.main .asideright .right div nav p{
+    font-size: 22px;
+    color: rgb(143, 151, 158);
+}
+.main .asideright .right2 p{
+    padding: 150px 50px;
+    text-align: center;
+    background-color:rgb(241, 236, 212);
+    margin: 30px;
+}
+.main .asideright .right2,.right3,.right4,.right5,.right6{
+    background-color: white;
+    padding-bottom: 5px;
+    margin-bottom: 30px;
+}
+.main .asideright .right3 h5{
+    display: inline;
+    background-color: rgb(236, 234, 232);
+    padding: 5px 10px;
+    text-align: center;
+    margin: 10px ;
+    margin-bottom: 10px;
+    font-size: 13px;
+}
+.main .asideright .right3 div{
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+.main .asideright .right3 div h5:first-child{
+    background-color: black;
+    color: white;
+}
+.main .asideright .right4 img{
+   margin: 20px 20px;
+}
+.main .asideright .right4 div{
+    padding-left: 15px;
+}
+.main .asideright .right5 div{
+    padding: 20px;
+}
+.main .asideright .right5 div i{
+     font-size: 22px;
+     padding: 5px;
+}
+.main .asideright .right6 form{
+    padding: 20px;
+}
+.main .asideright .right6 form p{
+    color: rgb(170, 165, 165);
+    margin-bottom: 12px;
+}
+.main .asideright .right6 form input{
+    width: 100%;
+    display: block;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.main .asideright .right6 form input[type="submit"]{
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+/*--end the main--*/
+
+/*--
+    start the footer
+--*/
+footer{
+    background-color: rgb(55, 63, 53);
+    color: white;
+    padding: 30px;
+   
+}
+footer button{
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+footer button:hover{
+    background-color: rgba(0, 0, 0, 0.76);
+}
+/*--end the footer--*/
+
+/*--medoa--*/
+@media screen and (max-width:600px) {
+    .main .asideright .nav1{
+     display: block;
+     width: 100%;
+    }
+    .main .asideright{
+     display: block;
+     float: none;
+     width: 91%;
+     margin: auto;
+    }
+    .main{
+     height: 6000px;
+    }
+    .main .asideright .right4 img{
+     width: 170px;
+    }
+ 
+     header div h1{
+         font-size: 30px;
+     }
+     header div button{
+         font-size: 15px;
+         padding: 10px;
+     }
+     header img{
+         height: 600px;
+     }
+     /*end the header--*/
+     .main .asideleft{
+         display: block;
+         float: none;
+         width: 100%;
+     }
+     .main .asideleft article .prag{
+         font-size: 15px;
+         color: rgb(88, 86, 86);
+     }
+     .main .asideleft article  .reply img{
+         width: 100px;
+         height: 120px;
+     }
+     .main .asideleft article .reply nav h3{
+         font-size: 17px;
+     }
+     .main .asideleft article .reply nav p{
+         font-size: 15px;
+     }
+     
+ }
+ /*
+ display:flex;
+ flex-wrap:wrap; لو المساحة مش كافية هيتصرف وممكن ينزل سطر بس الشكل ميطلعش برا الحواف
+justify-content:center,start,end;
+flex-direction:column,row,row-reverse,column-reverse;
+align-item:center;
+flex-item:....;
+
+ */
